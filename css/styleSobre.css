@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500;1,6..96,700&display=swap');
+
+*{
+  background-color: #F0F0F0;
+}
+#logo img{
+  height: 60px;
+  width: 60px;
+  padding-left: 60px;
+  padding-top: 5px;
+  background: transparent;
+}
+#buscar img{
+  height: 50px;
+  width: auto;
+  position: absolute;
+  left: 1370px;
+  top: 40px;
+  background: transparent;
+}
+#menu li{
+  font: normal 15px Helvetica;
+  color: black;
+  position: relative;
+  left: 55px;
+}
+header {
+  height: 80px;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  position: relative;
+}
+
+
+
+ul#menu li {
+  padding: 0;
+  display: inline;
+  background: transparent;
+}
+
+ul#menu li a {
+  float: left;
+  font-size: 100%;
+  margin: 10px 0px 0 0;
+  padding: 6px 10px 0;
+  display: flex;
+  background: transparent;
+  text-align: center;
+  color: #4F4847;
+  text-decoration: none;
+  position: relative;
+  left: 80px;
+}
+
+ul#menu li.current a {
+  color: #4F4847;
+  text-shadow: none;
+}
+
+ul#menu li:hover a {
+  color: #EAB8A6;
+  text-shadow: none;
+}
+
+#logo {
+  width: 300px;
+  float: left;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.whatsapp {
+  background-color: #EAB8A6;
+  color: #F0F0F0;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font: normal 15px Helvetica;
+}
+
+
+.parrafos{
+  font-family: Helvetica;
+  font-size: 20px;
+  text-align: center;
+  margin: 25px 40px 40px 40px;
+
+}
+
+.frase{
+  font-family: Bodoni Moda, serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 0px;
+
+}
+
+h3{
+  font-family: Bodoni Moda;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 90px;
+
+}
+
+div.Bloquecaja{
+  position: center;
+  float: left;
+  margin-left: 30px;
+}
+
+.caja{
+  width: 360px;
+  padding: 0px;
+  background-color: #EAB8A6;
+  float: left;
+  margin-left: 45px;
+  box-sizing: border-box;
+  margin: 20px 0px 30px 90px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  color: white;
+
+}
+
+
+.texto{
+  
+  left: 10px;
+  background: transparent;
+  font-family: helvetica;
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+}
+
+h2{
+  background: transparent;
+  color: #37748C;
+  font-family: helvetica, bold;
+  text-align: center;
+
+}
+
+
+.SobreNosotros img{
+  width: 98.7%;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+#footer {
+    position: absolute;
+  top:1750px;
+    background: transparent;
+    width: 100%;
+    font: normal 15px Helvetica;
+    text-align: center;
+}
+#footer p{
+  position: absolute;
+  left: 680px;
+  top: 100%;
+}
+

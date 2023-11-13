@@ -1,0 +1,246 @@
+.cuadro{
+	width: 1350px;
+	height: 600px;
+	background-color: #D9D9D9;
+	position: relative;
+	left: 80px;
+	top: 80px;
+}
+
+#foto{
+	height: 400px;
+	width: auto;
+	position: absolute;
+  top: 70px;
+  left: 120px;
+}
+
+.slider-frame {
+  width: 100%; 
+  height: auto;
+  margin: 1px auto 0;
+  overflow: hidden;
+}
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: slide 25s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 80%;
+  height: auto;
+}
+
+@keyframes slide {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -140%;}
+  45% {margin-left: -140%;}
+  
+  50% {margin-left: -265%;}
+  70% {margin-left: -265%;}
+  
+}
+
+#precios1 {
+      text-decoration: line-through; /* Agrega el tachado al texto */
+      color: #999; /* Puedes ajustar el color del texto tachado */
+      font-family: helvetica;
+      font-size: 25px;
+      position: absolute;
+      top: 520px;
+      left: 150px;
+    }
+
+#precios2{
+      font-family: helvetica;
+      font-size: 25px;
+      position: absolute;
+      top: 520px;
+      left: 250px;
+    }
+
+#naranja{
+      font-family: helvetica;
+      font-size: 40px;
+      position: absolute;
+      top: 445px;
+      left: 150px;
+    }
+
+#nuevas{
+	font-family: helvetica;
+	background: transparent;
+	position: absolute;
+	left: 850px;
+	top: 100px;
+	font-size: 50px;
+
+}
+
+#prendas {
+  font-family: helvetica;
+  background: transparent;
+  position: absolute;
+  left: 750px;
+  top: 110px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #36738f;
+}
+
+.boton {
+  position: absolute;
+  top: 450px;
+  left: 750px;
+  background-color: #EAB8A6;
+  color: #36738f; 
+  font-family: helvetica;
+  font-size: 16px;
+  padding: 10px 70px; /* Ajusta el espaciado interno según sea necesario */
+  border: none;
+  border-radius: 20px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+#texto{
+	position: absolute;
+	top: 300px;
+	left: 750px;
+	font-size: 17px;
+	background-color: transparent;
+	font-family: helvetica;
+}
+
+#nuevo{
+	background: none;
+	padding: 10px;
+	position: absolute;
+	top: 2px;
+	left: 80px;
+
+}
+.contenedorblusas {
+  width: 100%; /* Cambiado para ocupar el ancho completo del contenedor padre */
+  height: 420px;
+  margin-left: auto; /* Añadido para centrar horizontalmente */
+  margin-right: auto; /* Añadido para centrar horizontalmente */
+  padding-top: 120px;
+  padding-bottom: 40px;
+  
+  position: relative;
+  display: flex; /* Usar flexbox */
+  justify-content: space-around; /* Centrar horizontalmente con espacio alrededor de los elementos */
+  align-items: center; /* Centrar verticalmente */
+  position: relative;
+  top: 100px;
+}
+
+h3{
+color:#36738F;
+text-align:left;
+font-size:40px;
+font-family: helvetica;
+font-weight:bold;
+font-style: italic;
+padding-left: 30px;
+background: none;
+}
+
+#blusa1 img {
+  width: 120%; /* Cambia el tamaño de la imagen de la blusa1 al 120% del contenedor */
+  height: auto;
+  border-radius: 31px;
+}
+
+#blusa2 img,
+#blusa3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 31px; /* Añadido para esquinas redondeadas */
+}
+
+#blusa1 {
+  box-sizing: border-box;
+  padding: 10px 60px 40px 40px;
+  height: 400px;
+  width: 350px;
+  font-family: Helvetica;
+  font-size: 18px;
+  box-sizing: border-box;
+  background: none;
+  border-radius: 31px;
+  text-align: center;
+}
+
+#blusa2,
+#blusa3 {
+  box-sizing: border-box;
+  padding: 10px 60px 40px 40px;
+  height: 400px;
+  width: 350px;
+  font-family: Helvetica;
+  font-size: 18px;
+  box-sizing: border-box;
+  background: none;
+  border-radius: 31px;
+  text-align: center; /* Añadido para centrar el texto */
+}
+
+#blusa3 img {
+  width: 108%; /* Cambia el tamaño de la imagen de la blusa3 al 150% del contenedor */
+}
+p{
+	background: none;
+}
+
+.botoncompra{
+	background: none;
+	color: #36738F;
+	background-color: #FFC7C6;
+	font-family: helvetica;
+	text-decoration: none;
+	text-transform: uppercase;
+	height: 30px;
+	width: 270px;
+	display: inline-block;
+	line-height: 1.8;
+	text-align: center;
+	border-radius: 2em;
+}
+
+#mulan{
+	position: relative;
+	left: 20px;
+}
+
+#botonmulan{
+	position: relative;
+	left: 10px;
+	top: -3px;
+}
+#footer {
+  position: relative;
+  top:120px;
+    display: inline;
+    background: transparent;
+    width: 100%;
+    font: normal 15px Helvetica;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#footer p{
+  position: absolute;
+  left: 660px;
+  top: 100%;
+}

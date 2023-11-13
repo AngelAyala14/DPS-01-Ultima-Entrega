@@ -1,0 +1,371 @@
+/*BANNER*/
+.bannerpic {
+  margin-top: 10px;
+  margin-left: 10px; /* Centra horizontalmente */
+  margin-right: 10px; /* Centra horizontalmente */
+  height: auto; /* Se ajustará automáticamente según la anchura */
+  max-width: 98.7%; /* Ajusta el ancho máximo al 100% del contenedor */
+  top: 0;
+  left: 0;
+  object-fit: cover; /* Ajusta la imagen manteniendo la proporción y cubriendo completamente el contenedor */
+}
+
+
+
+.bannertext
+{
+color:#f0f0f0;
+background:none;
+text-align:left;
+font-size:30px;
+font-family:helvetica;
+letter-spacing: 0.2rem;
+line-height:auto;
+position:absolute;
+top: 40%;
+left: 40px;
+}
+
+.bannertext2{
+color:#f0f0f0;
+background: none;
+text-align:left;
+font-size:160px;
+font-family:helvetica;
+font-style: italic;
+font-weight: bold;
+letter-spacing: -0.8rem;
+line-height:auto;
+position:absolute;
+top: 40%;
+left: 30px;
+}
+
+  /*CATEGORIAS*/
+
+h2{
+color:#1e1e1e;
+text-align:center;
+font-size:50px;
+font-family: helvetica;
+font-weight:bold;
+padding-left: 30px;
+margin-bottom: 50px;
+}
+  
+
+  /*BLUSAS*/
+
+#blusas{
+	background: none;
+	padding: 10px;
+	position: absolute;
+	top: 2px;
+	left: 80px;
+
+}
+.contenedorblusas {
+  width: 100%; /* Cambiado para ocupar el ancho completo del contenedor padre */
+  height: 420px;
+  margin-left: auto; /* Añadido para centrar horizontalmente */
+  margin-right: auto; /* Añadido para centrar horizontalmente */
+  padding-top: 120px;
+  padding-bottom: 40px;
+  background-color: #D9D9D9;
+  position: relative;
+  display: flex; /* Usar flexbox */
+  justify-content: space-around; /* Centrar horizontalmente con espacio alrededor de los elementos */
+  align-items: center; /* Centrar verticalmente */
+}
+
+#abrigos{
+  background: none;
+  padding: 10px;
+  position: absolute;
+  top: 2px;
+  left: 80px;
+
+}
+
+.contenedorabrigos{
+  position: relative;
+  top: 40px;
+  width: 98.7%; /* Cambiado para ocupar el ancho completo del contenedor padre */
+  height: 420px;
+  margin-left: auto; /* Añadido para centrar horizontalmente */
+  margin-right: auto; /* Añadido para centrar horizontalmente */
+  padding-top: 120px;
+  padding-bottom: 40px;
+  background-color: #D9D9D9;
+  position: relative;
+  display: flex; /* Usar flexbox */
+  justify-content: space-around; /* Centrar horizontalmente con espacio alrededor de los elementos */
+  align-items: center; /* Centrar verticalmente */
+}
+#vestidos{
+  background: none;
+  padding: 10px;
+  position: absolute;
+  top: 2px;
+  left: 80px;
+
+}
+
+.contenedorvestidos{
+  position: relative;
+  top: 80px;
+  width: 98.7%; /* Cambiado para ocupar el ancho completo del contenedor padre */
+  height: 420px;
+  margin-left: auto; /* Añadido para centrar horizontalmente */
+  margin-right: auto; /* Añadido para centrar horizontalmente */
+  padding-top: 120px;
+  padding-bottom: 40px;
+  background-color: #D9D9D9;
+  position: relative;
+  display: flex; /* Usar flexbox */
+  justify-content: space-around; /* Centrar horizontalmente con espacio alrededor de los elementos */
+  align-items: center; /* Centrar verticalmente */
+}
+
+
+#accesorios{
+  background: none;
+  padding: 10px;
+  position: absolute;
+  top: 2px;
+  left: 80px;
+
+}
+.contenedoraccesorios{
+  position: relative;
+  top: 116px;
+  width: 98.7%; /* Cambiado para ocupar el ancho completo del contenedor padre */
+  height: 420px;
+  margin-left: auto; /* Añadido para centrar horizontalmente */
+  margin-right: auto; /* Añadido para centrar horizontalmente */
+  padding-top: 120px;
+  padding-bottom: 40px;
+  background-color: #D9D9D9;
+  position: relative;
+  display: flex; /* Usar flexbox */
+  justify-content: space-around; /* Centrar horizontalmente con espacio alrededor de los elementos */
+  align-items: center; /* Centrar verticalmente */
+}
+/*ACCESORIOS*/
+
+#accesorio1 img,
+#accesorio2 img,
+#accesorio3 img {
+  width: 110%;
+  height: auto;
+  border-radius: 31px; /* Añadido para esquinas redondeadas */
+  transition: transform 0.3s; /* Agregamos una transición suave para animar el cambio de tamaño */
+}
+
+#accesorio1 img:hover,
+#accesorio2 img:hover,
+#accesorio3 img:hover {
+  transform: scale(1.5); /* Hacemos que la imagen sea un 10% más grande al pasar el puntero por encima */
+}
+
+#accesorio3 img {
+  position: relative;
+  left: -15px;
+}
+
+#accesorio1,
+#accesorio2,
+#accesorio3 {
+  box-sizing: border-box;
+  padding: 10px 60px 40px 40px;
+  height: 400px;
+  width: 350px;
+  font-family: Helvetica;
+  font-size: 18px;
+  box-sizing: border-box;
+  background: none;
+  border-radius: 31px;
+  text-align: center;
+}
+
+
+/*VESTIDO*/
+
+#vestido1 img,
+#vestido2 img,
+#vestido3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 31px; /* Añadido para esquinas redondeadas */
+  transition: transform 0.3s; /* Agregamos una transición suave para animar el cambio de tamaño */
+}
+
+#vestido1 img:hover,
+#vestido2 img:hover,
+#vestido3 img:hover {
+  transform: scale(1.5); /* Hacemos que la imagen sea un 15% más grande al pasar el puntero por encima */
+}
+
+#vestido3 img {
+  position: relative;
+  left: -15px;
+}
+
+#vestido1,
+#vestido2,
+#vestido3 {
+  box-sizing: border-box;
+  padding: 10px 60px 40px 40px;
+  height: 400px;
+  width: 350px;
+  font-family: Helvetica;
+  font-size: 18px;
+  box-sizing: border-box;
+  background: none;
+  border-radius: 31px;
+  text-align: center;
+}
+
+/*ABRIGOS*/
+
+
+#abrigo1 img,
+#abrigo2 img,
+#abrigo3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 31px; /* Añadido para esquinas redondeadas */
+  transition: transform 0.3s; /* Agregamos una transición suave para animar el cambio de tamaño */
+}
+
+#abrigo1 img:hover,
+#abrigo2 img:hover,
+#abrigo3 img:hover {
+  transform: scale(1.5); /* Hacemos que la imagen sea un 5% más grande al pasar el puntero por encima */
+}
+
+#abrigo1,
+#abrigo2,
+#abrigo3 {
+  box-sizing: border-box;
+  padding: 10px 60px 40px 40px;
+  height: 400px;
+  width: 350px;
+  font-family: Helvetica;
+  font-size: 18px;
+  box-sizing: border-box;
+  background: none;
+  border-radius: 31px;
+  text-align: center;
+}
+
+
+
+
+h3{
+color:#36738F;
+text-align:left;
+font-size:40px;
+font-family: helvetica;
+font-weight:bold;
+font-style: italic;
+padding-left: 30px;
+background: none;
+}
+
+
+#blusa1 img,
+#blusa2 img,
+#blusa3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 31px; /* Añadido para esquinas redondeadas */
+  transition: transform 0.3s; /* Agregamos una transición suave para animar el cambio de tamaño */
+}
+
+#blusa1 img:hover,
+#blusa2 img:hover,
+#blusa3 img:hover {
+  transform: scale(1.5); /* Hacemos que la imagen sea un 50% más grande al pasar el puntero por encima */
+}
+
+#blusa1,
+#blusa2,
+#blusa3 {
+  box-sizing: border-box;
+  padding: 10px 60px 40px 40px;
+  height: 400px;
+  width: 350px;
+  font-family: Helvetica;
+  font-size: 18px;
+  box-sizing: border-box;
+  background: none;
+  border-radius: 31px;
+  text-align: center;
+}
+
+p{
+	background: none;
+	line-height: 5px;
+
+
+}
+
+.botoncompra{
+	background: none;
+	color: #36738F;
+	background-color: #FFC7C6;
+	font-family: helvetica;
+	text-decoration: none;
+	text-transform: uppercase;
+	height: 30px;
+	width: 270px;
+	display: inline-block;
+	line-height: 1.8;
+	text-align: center;
+	border-radius: 2em;
+}
+
+.botoncompra:hover{
+	cursor: pointer;
+	background-color: #36738F;
+	color:#FFC7C6;
+}
+
+.img{
+	height: 300px;
+}
+
+@media (min-width: 944px){
+	.contenedorblusas{
+		width: 1483.2px;
+		display: flex;
+		margin-top: 10px;
+
+	}
+
+	article .blusa1 .blusa2 .blusa3{
+		height: 500px;
+		background:none;
+
+	}
+}
+
+#footer {
+  position: relative;
+  top:120px;
+    display: inline;
+    background: transparent;
+    width: 100%;
+    font: normal 15px Helvetica;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#footer p{
+  position: absolute;
+  left: 660px;
+  top: 100%;
+}
+
+
+
